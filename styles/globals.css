@@ -18,3 +18,18 @@ a {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.social{
+  /* height: 200vh; */
+  transform: translate(-250px, 0);
+  width: 300px;
+}
+
+.social a:hover{
+  transition: 1s;
+  transition-property: transform;
+}
+
+.social a:hover{
+  transform: translate(140px, 0);
+}
