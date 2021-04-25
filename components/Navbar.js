@@ -31,7 +31,7 @@ export default function Navbar() {
             </div>
           </div>
           <div className={"md:flex flex-col md:flex-row " + (navbarOpen?"flex":"hidden")}>
-            <Link href="/"><a className="py-5 px-3 text-gray-200 hover:text-white">Acerca de</a></Link>
+            <Link href="/"><a className="py-5 px-3 text-gray-200 hover:text-white">Inicio</a></Link>
             <Link href="/olimpiadas"><a className="py-5 px-3 text-gray-200 hover:text-white">Olimpiadas</a></Link>
             <Link href="/resultados"><a className="py-5 px-3 text-gray-200 hover:text-white">Resultados</a></Link>
             {/* <a href="" className="py-2 px-3 bg-yellow-400 hover:bg-yellow-300 text-yellow-900 hover:text-yellow-800 rounded transition duration-300">Signup</a> */}

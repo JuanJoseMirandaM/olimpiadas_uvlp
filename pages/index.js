@@ -11,12 +11,11 @@ export default function Home() {
   // const bg_image = require('../assets/images/bg_student.jpg');
   const textLines = ['OLIMPIADAS MEDICAS']
   return (
-    <div className="h-screen w-full">
+    <div className="w-full">
       <Head>
         <title>OLIMPIADAS MEDICAS UVLP</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar></Navbar>
       <SocialMedia></SocialMedia>
       <div className="bg-fixed bg-cover bg-no-repeat bg-center h-screen w-full" style={{backgroundImage: 'url(/bg_student.jpg)' }}>
         <div className="inset-0 flex justify-center items-center">
@@ -39,11 +38,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </div>
-      
-      <About></About> 
+      </div> 
+      <About id="about"></About> 
       <Olimpiadas></Olimpiadas>
-      <Footer></Footer>
     </div>
   );
 }
