@@ -2,10 +2,12 @@ import Head from 'next/head'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
 import SocialMedia from '../components/SocialMedia'
+import Typed from "react-typed";
 
 
 export default function Home() {
   // const bg_image = require('../assets/images/bg_student.jpg');
+  const textLines = ['OLIMPIADAS MEDICAS']
   return (
     <div className="h-screen w-full">
       <Head>
@@ -22,7 +24,7 @@ export default function Home() {
                 <div className="flex flex-col items-center">
                   <div className="bg-black bg-opacity-10 rounded-md w-full text-center py-2">
                     <p className="text-4xl text-white mb-2 text-center">
-                      OLIMPIADAS MEDICAS
+                      <Typed strings={textLines} typeSpeed={90} backSpeed={60} loop/>
                     </p>
                   </div>
                 </div>
