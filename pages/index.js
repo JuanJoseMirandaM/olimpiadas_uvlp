@@ -11,7 +11,7 @@ export default function Home() {
   // const bg_image = require('../assets/images/bg_student.jpg');
   const textLines = ['OLIMPIADAS MEDICAS']
   return (
-    <div className="w-full">
+    <div className="w-full mb-auto">
       <Head>
         <title>OLIMPIADAS MEDICAS UVLP</title>
         <link rel="icon" href="/favicon.ico" />
