@@ -1,13 +1,13 @@
-import React from 'react'
+import Link from 'next/link'
 
 const Olimpiadas = () => {
   return (
-    <div class="container mx-auto px-2 pt-4 pb-12 text-grey-darker">
-      <h2 class="w-full my-2 text-3xl lg:text-4xl font-bold leading-tight text-center text-grey-darker">
+    <div className="container mx-auto px-2 pt-4 pb-12 text-grey-darker">
+      <h2 className="w-full my-2 text-3xl lg:text-4xl font-bold leading-tight text-center text-grey-darker">
         Olimpiadas
       </h2>
-      <div class="w-full mb-4">	
-        <div class="h-1 mx-auto bg-yellow-500 w-64 opacity-50 my-0 py-0 rounded-t"></div>
+      <div className="w-full mb-4">	
+        <div className="h-1 mx-auto bg-yellow-500 w-64 opacity-50 my-0 py-0 rounded-t"></div>
       </div>
       <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
         <div className="flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
@@ -21,11 +21,11 @@ const Olimpiadas = () => {
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div className="flex items-center justify-center">
-              <a href="#">
+              <Link href="/olimpiadas/primera">
                 <button className="mx-auto lg:mx-0 bg-yellow-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg  focus:outline-none">
                   Ver mas
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -47,11 +47,11 @@ const Olimpiadas = () => {
               <span className="text-base">hasta el 9 de mayo</span>
             </div>
             <div className="flex items-center justify-center">
-              <a href="#">
+              <Link href="/olimpiadas/segunda">
                 <button className="mx-auto lg:mx-0 bg-yellow-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg  focus:outline-none">
                   Ver mas
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
@@ -67,11 +67,11 @@ const Olimpiadas = () => {
           </div>
           <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
             <div className="flex items-center justify-center">
-              <a href="#">
+              <Link href="/olimpiadas/tercera">
                 <button className="mx-auto lg:mx-0 bg-yellow-500 text-white font-bold rounded-full my-6 py-4 px-8 shadow-lg  focus:outline-none">
                   Ver mas
                 </button>
-              </a>
+              </Link>
             </div>
           </div>
         </div>
