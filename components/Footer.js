@@ -9,7 +9,7 @@ const Footer = () => {
             <p>Copyright ©2021 Olimpiadas Medicas UVLP. Todos los Derechos Reservados.</p>
           </div>
           <div className="flex py-4 w-full md:justify-end md:w-1/3">
-            <p>Sitio desarrollado por <a target="_blank" title="Especialistas en Diseño Web" href="http://juanjoses.me/#/">JSM Solutions 🚀</a></p>
+            <p>Sitio desarrollado por <a target="_blank" title="Especialistas en Desarrollo Web" href="http://juanjoses.me/#/">JSM Solutions 🚀</a></p>
           </div>
           
         </div>

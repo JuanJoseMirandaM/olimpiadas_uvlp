@@ -5,7 +5,7 @@ const About = () => {
     <div className="pt-8 container mx-auto px-4 md:px-0">
       <div className="grid grid-cols-1 sm:grid-cols-2 sm:px-8 sm:py-12 sm:gap-x-8 md:py-16">
         <div className="relative z-10 col-start-1 row-start-1 px-4 pt-40 pb-3 bg-gradient-to-t from-black sm:bg-none">
-          <p className="text-sm font-medium text-white sm:mb-1 sm:text-gray-500">Universidad del Valle</p>
+          <p className="text-sm font-medium text-white sm:mb-1 sm:text-gray-500">SOCEM UniValle</p>
           <h2 className="text-xl font-semibold text-white sm:text-2xl sm:leading-7 sm:text-black md:text-3xl">Acerca de Nosotros</h2>
         </div>
         <div className="col-start-1 row-start-3 space-y-3 px-4 mt-4">

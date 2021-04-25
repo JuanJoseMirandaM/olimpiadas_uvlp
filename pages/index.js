@@ -24,7 +24,7 @@ export default function Home() {
               <div className="mx-4 p-4 w-full lg:w-7/12">
                 <div className="flex flex-col items-center">
                   <div className="bg-black bg-opacity-10 rounded-md w-full text-center py-2">
-                    <p className="text-4xl text-white mb-2 text-center">
+                    <p className="text-3xl md:text-4xl text-white mb-2 text-center">
                       <Typed strings={textLines} typeSpeed={90} backSpeed={60} loop/>
                     </p>
                   </div>
@@ -41,6 +41,24 @@ export default function Home() {
       </div>
       
       <About></About> 
+
+      <div className="container mx-auto">
+        <div className="px-4 md:px-12 py-4">
+          <h2 className="text-3xl lg:text-4xl font-semibold">Olimpiadas</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 my-4">
+            <div className="relative shadow-lg h-96 md:h-72 lg:h-96">
+              <img src="afiche1.png" alt="" className="absolute inset-0 w-full h-full object-scale-down md:object-fill rounded-lg bg-gray-100"/>
+            </div>
+            <div className="relative shadow-lg h-96 md:h-72 lg:h-96">
+              <img src="afiche1.png" alt="" className="absolute inset-0 w-full h-full object-scale-down md:object-fill rounded-lg bg-gray-100"/>
+            </div>
+            <div className="relative shadow-lg h-96 md:h-72 lg:h-96">
+              <img src="afiche1.png" alt="" className="absolute inset-0 w-full h-full object-scale-down md:object-fill rounded-lg bg-gray-100"/>
+            </div>
+          </div>
+        </div>  
+        
+      </div>
       <Footer></Footer>
     </div>
   );
