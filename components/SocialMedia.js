@@ -2,7 +2,7 @@ import React from 'react'
 
 const SocialMedia = () => {
   return (
-    <div className="text-white fixed flex flex-col social mt-96">
+    <div className="text-white fixed flex flex-col social mt-96 z-50">
       <a href="https://wa.me/59170112243" target="_blank" className="bg-gray-600 bg-opacity-40 hover:bg-green-600 flex m-1 px-4 py-2 rounded-full w-full justify-end">
         WhatsApp
         <svg className="h-8 w-8 inline ml-2"  width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <path d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5l1.5 -2.5l5 2v4a2 2 0 0 1 -2 2a16 16 0 0 1 -15 -15a2 2 0 0 1 2 -2" />  <path d="M15 7a2 2 0 0 1 2 2" />  <path d="M15 3a6 6 0 0 1 6 6" /></svg>

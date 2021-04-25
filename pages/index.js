@@ -2,6 +2,7 @@ import Head from 'next/head'
 import About from '../components/About'
 import Navbar from '../components/Navbar'
 import SocialMedia from '../components/SocialMedia'
+import Footer from '../components/Footer'
 import Typed from "react-typed";
 
 
@@ -40,7 +41,7 @@ export default function Home() {
       </div>
       
       <About></About>
-      
+      <Footer></Footer>
     </div>
   );
 }

@@ -2,7 +2,7 @@ import Head from 'next/head';
 
 export default function Navbar() {
   return (
-    <nav className="fixed w-full bg-black bg-opacity-25 shadow-xl">
+    <nav className="fixed w-full bg-black bg-opacity-25 shadow-xl z-50">
       <div className="container mx-auto px-4">
         <div className="flex justify-between">
     
