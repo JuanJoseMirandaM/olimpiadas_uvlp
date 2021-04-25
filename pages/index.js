@@ -40,7 +40,7 @@ export default function Home() {
         </div>
       </div>
       
-      <About></About>
+      <About></About> 
       <Footer></Footer>
     </div>
   );

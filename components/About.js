@@ -10,19 +10,19 @@ const About = () => {
         </div>
         <div className="col-start-1 row-start-3 space-y-3 px-4 mt-4">
           <p className="flex items-center text-black text-md">
-            La Olimpiada Medica Boliviana - Univalle es una actividad para los alumnos de 1° a 5° año de las diferentes facultades de Medicina, fue creada con el objetivo de promover y profundizar el estudio, mejorando así la calidad del futuro profesionales en el área de salud. 🩺
+            La Olimpiada Medica Boliviana - Univalle es una actividad para los alumnos de 1° a 5° año de las diferentes facultades de Medicina, fue creada con el objetivo de promover y profundizar el estudio, mejorando así la calidad del futuro profesionales en el área de salud. 
           </p>
         </div>
         <div className="col-start-1 row-start-1 flex sm:col-start-2 sm:row-span-3">
           <div className="w-full grid grid-cols-3 grid-rows-2 gap-2">
             <div className="relative col-span-3 row-span-2 md:col-span-2">
-              <img src="student2.jpg" alt="" className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg" />
+              <img src="student2z.jpg" alt="" className="absolute inset-0 w-full h-full object-cover bg-gray-100 sm:rounded-lg" />
             </div>
             <div className="relative hidden md:block">
-              <img src="student3.jpg" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+              <img src="student3z.jpg" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
             </div>
             <div className="relative hidden md:block">
-              <img src="student1.jpg" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
+              <img src="student1z.jpg" alt="" className="absolute inset-0 w-full h-full object-cover rounded-lg bg-gray-100" />
             </div>
           </div>
         </div>
