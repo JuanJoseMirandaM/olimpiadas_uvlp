@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div className="pt-8 container mx-auto px-4 md:px-0">
       <h1 className="text-xl font-bold">Acerca de Nosotros</h1>
-      <p className="py-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aliquid provident maiores facilis corporis eius assumenda dolores nam deserunt aspernatur cum temporibus hic, esse facere quam. Voluptatum incidunt nisi blanditiis!</p>
+      <p className="py-4">La Olimpiada Medica boliviana - Univalle es una actividad para los alumnos de 1° a 5° de las diferentes facultades de Medicina, fue creada con el objetivo de promover y profundizar el estudio, mejorando así la calidad del futuro profesionales en el área de salud.</p>
     </div>
   )
 }

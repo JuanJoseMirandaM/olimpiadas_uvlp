@@ -33,3 +33,7 @@ a {
 .social a:hover{
   transform: translate(140px, 0);
 }
+
+.btn__hero{
+  animation: signal 1s ease infinite;
+}
