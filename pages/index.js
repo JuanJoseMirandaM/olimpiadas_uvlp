@@ -15,6 +15,7 @@ export default function Home() {
       <Head>
         <title>OLIMPIADAS MEDICAS UVLP</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta property="og:image" content="/logo.png"></meta>
       </Head>
       <SocialMedia></SocialMedia>
       <div className="bg-fixed bg-cover bg-no-repeat bg-center h-screen w-full" style={{backgroundImage: 'url(/bg_student.jpg)' }}>
