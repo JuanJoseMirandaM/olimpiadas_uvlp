@@ -2,9 +2,9 @@ import React from 'react'
 
 const Primera = () => {
   return (
-    <div className="h-full">
-      <h1>Primera olimpiada</h1>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos odit soluta et saepe cupiditate. Ducimus necessitatibus deserunt, sequi, inventore incidunt omnis soluta alias eos accusantium, voluptas commodi nemo. Animi, aliquam?</p>
+    <div className="w-full container mx-auto">
+      <h1 className="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-2 pt-20">Primera Mini Olimpiada</h1>
+      <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-red-900 mb-3">27 de Marzo, 3 Y 9 de Abril</h2>
     </div>
   )
 }
