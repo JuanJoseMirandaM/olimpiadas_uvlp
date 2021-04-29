@@ -41,9 +41,9 @@ const ModalPdf = ({open, cancelButtonRef, closeModal, url}) => {
               leaveFrom="opacity-100 scale-100"
               leaveTo="opacity-0 scale-95"
             >
-              <div className="inline-block w-full max-w-md p-2 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
-                <iframe src={url} width="100%" height="500"></iframe>
-                <div className="mt-4">
+              <div className="inline-block w-full lg:w-3/4 p-2 my-8 overflow-hidden text-left align-middle transition-all transform bg-white shadow-xl rounded-2xl">
+                <iframe src={url} width="100%" height="600" className="px-4"></iframe>
+                <div className="my-4 ml-4">
                   <button
                     type="button"
                     className="inline-flex justify-center px-4 py-2 text-sm font-medium text-blue-900 bg-blue-100 border border-transparent rounded-md hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500"
