@@ -40,7 +40,7 @@ const Segunda = () => {
   return (
     <div className="w-full container px-4 md:px-0 mx-auto">
       <h1 className="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-2 pt-24">Segunda Mini Olimpiada</h1>
-      <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-yellow-600 mb-3 uppercase">El 15, 22 y 29 de Mayo</h2>
+      <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-yellow-600 mb-3 uppercase">15, 22 y 29 de Mayo</h2>
       
       <div className="mt-8">
         <h3 className="text-3xl font-bold my-4">Convocatoria</h3>
@@ -66,21 +66,21 @@ const Segunda = () => {
             title="Fisiología Medica"
             author="JOHN E. HALL"
             onClick={openModal1}
-            className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            
           >
           </ButtonPdf>
           <ButtonPdf
             title="Microbiología Medica"
             author="MURRAY, ROSENTHAL Y PFALLER"
             onClick={openModal2}
-            className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            
           >
           </ButtonPdf>
           <ButtonPdf
             title="Patología Estructural y Funcional"
             author="GROBBINS"
             onClick={openModal3}
-            className="px-4 py-2 text-sm font-medium text-white bg-black rounded-md bg-opacity-20 hover:bg-opacity-30 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75"
+            
           >
           </ButtonPdf>
           
