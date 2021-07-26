@@ -40,7 +40,7 @@ const Segunda = () => {
   return (
     <div className="w-full container px-4 md:px-0 mx-auto">
       <h1 className="text-3xl sm:text-5xl lg:text-6xl leading-none font-extrabold text-gray-900 tracking-tight mb-2 pt-24">Segunda Mini Olimpiada</h1>
-      <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-yellow-600 mb-3 uppercase">15, 22 y 29 de Mayo</h2>
+      <h2 className="sm:text-lg sm:leading-snug font-semibold tracking-wide uppercase text-yellow-600 mb-3">15, 22 y 29 de Mayo</h2>
       
       <div className="mt-8">
         <h3 className="text-3xl font-bold my-4">Convocatoria</h3>
@@ -55,7 +55,7 @@ const Segunda = () => {
             </ul>
           </li>
           <li>Cada prueba contará de 50 preguntas de selección múltiple con una duración de 60 minutos.</li>
-          <li>Los puntos serás acumulativos y al final de la MINI OLIPIADA MÉDICA se dará certificado a los 3primeros equipo con mayor puntaje.</li>
+          <li>Los puntos serás acumulativos y al final de la MINI OLIMPIADA MÉDICA se dará certificado a los tres primeros equipo con mayor puntaje.</li>
           <li>Podrá visualizar a los grupos ganadores en nuestra PAGINA WEB, INSTAGRAM y FACEBOOK</li>
         </ul>
       </div>

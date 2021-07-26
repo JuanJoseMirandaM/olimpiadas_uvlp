@@ -15,6 +15,9 @@ export default function Home() {
       <Head>
         <title>OLIMPIADAS MEDICAS UVLP</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet"/>
         <meta property="og:image" content="/logo.png"></meta>
       </Head>
       <SocialMedia></SocialMedia>

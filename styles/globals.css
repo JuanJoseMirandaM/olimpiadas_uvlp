@@ -37,3 +37,7 @@ a {
 .btn__hero{
   animation: signal 1s ease infinite;
 }
+
+.change-my-color {
+  fill: green;
+}
