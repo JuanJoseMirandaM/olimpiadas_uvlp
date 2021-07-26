@@ -9,7 +9,7 @@ import Typed from "react-typed";
 
 export default function Home() {
   // const bg_image = require('../assets/images/bg_student.jpg');
-  const textLines = ['OLIMPIADAS MEDICAS', '2da MINI OLIMPIADA', 'INSCRIPCIONES HASTA EL 9 DE MAYO']
+  const textLines = ['OLIMPIADAS MEDICAS', '3ra MINI OLIMPIADA', 'INSCRIPCIONES HASTA EL 9 DE AGOSTO']
   return (
     <div className="w-full mb-auto">
       <Head>
