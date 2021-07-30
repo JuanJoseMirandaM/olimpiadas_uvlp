@@ -1,5 +1,6 @@
 import Layout from '../components/Layout'
 import '../styles/globals.css'
+import '../assets/icons/font/flaticon.css'
 
 function MyApp({ Component, pageProps }) {
   return (

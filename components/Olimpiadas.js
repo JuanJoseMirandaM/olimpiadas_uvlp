@@ -58,7 +58,7 @@ const Olimpiadas = () => {
 
         <div className="flex flex-col w-5/6 lg:w-1/5 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
           <div className="flex-1 bg-white text-grey-dark rounded-t rounded-b-none overflow-hidden shadow">
-            <div className="p-8 text-3xl font-bold text-center border-b-4">3da Mini<br/>Olimpiada</div>
+            <div className="p-8 text-3xl font-bold text-center border-b-4">2da Mini<br/>Olimpiada</div>
             <ul className="w-full text-center text-sm">
               <li className="border-b py-4">Fisiología</li>
               <li className="border-b py-4">Microbiología</li>
