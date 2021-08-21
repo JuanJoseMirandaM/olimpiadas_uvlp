@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'om-icons';
+  src:  url('fonts/om-icons.eot?1kyj3v');
+  src:  url('fonts/om-icons.eot?1kyj3v#iefix') format('embedded-opentype'),
+    url('fonts/om-icons.ttf?1kyj3v') format('truetype'),
+    url('fonts/om-icons.woff?1kyj3v') format('woff'),
+    url('fonts/om-icons.svg?1kyj3v#om-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.om-font {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'om-icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.commenting-o:before {
+  content: "\f27b";
+}
+.facebook:before {
+  content: "\e900";
+}
+.instagram:before {
+  content: "\e901";
+}
+.phone:before {
+  content: "\e902";
+}
+.youtube:before {
+  content: "\e903";
+}
+.trophy:before {
+  content: "\e99e";
+}
+.whatsapp:before {
+  content: "\ea93";
+}

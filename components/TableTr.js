@@ -8,9 +8,10 @@ export const TableTr = ({team}) => {
       <td className="px-6 py-4 whitespace-nowrap">
         <div className="flex items-center">
           <div className="flex-shrink-0 h-10 w-10 text-center">
-            <label className="text-xl font-extrabold">
-              {id}
-            </label>
+            {id == 1? <span className="om-font trophy primer-lugar"></span>: <></>}
+            {id == 2? <span className="om-font trophy segundo-lugar"></span>: <></>}
+            {id == 3? <span className="om-font trophy tercer-lugar"></span>: <></>}
+            {id > 3? <label className="text-xl font-extrabold">{id}</label>: <></>}
           </div>
           <div className="ml-4">
             {/* <div className="text-sm font-medium text-gray-900"> */}
