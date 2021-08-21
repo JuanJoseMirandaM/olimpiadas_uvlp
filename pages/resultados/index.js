@@ -102,17 +102,64 @@ const segundaMiniOlimpiada = [
     'fase3': 0,
     'total': 55800
   }
-]
+];
+
+const terceraMiniOlimpiada = [
+  {
+    'id': 1,
+    'name1': 'ROSY MARIENCA CONDORI MAMANI ',
+    'name2': 'JOSE SANTIAGO ALANOCA SILVA',
+    'name3': 'LAURA MEYLIN TANTANI SULLCA ',
+    'fase1': 40800,
+    'fase2': 0,
+    'fase3': 0,
+    'total': 40800
+  },
+  {
+    'id': 2,
+    'name1': 'ERIKA CAMELA CASILLA MAMANI',
+    'name2': 'PHANNEL YEBELI ALIAGA OJEDA',
+    'name3': 'YASHIRA EVELYN JARA PINTO',
+    'fase1': 40600,
+    'fase2': 0,
+    'fase3': 0,
+    'total': 40600
+  },
+    {
+    'id': 3,
+    'name1': 'ALBA DANIELA RODRIGUEZ SILVA',
+    'name2': 'MARIA ANGÉLICA CONDE OJOPI',
+    'name3': 'OLIVER BERNABE QUISPE MAMANI',
+    'fase1': 31200,
+    'fase2': 0,
+    'fase3': 0,
+    'total': 31200
+  },
+  {
+    'id': 4,
+    'name1': 'GABRIELA EVELIN CARBAJAL ALLPACCA',
+    'name2': 'XIMENA TICONA LLANOS',
+    'name3': 'JHOSELIN CAROL QUISPE QUISPE',
+    'fase1': 28800,
+    'fase2': 0,
+    'fase3': 0,
+    'total': 28800
+  }
+];
 
 const index = () => {
   return (
     <div className="w-full container mx-auto">
-      <h2 className="w-full text-4xl lg:text-5xl font-bold pt-20 text-center uppercase">Resultados</h2>
-      <div className="w-full mb-32">	
-        <div className="h-1 mx-auto bg-yellow-500 w-96 opacity-50 my-0 py-0 rounded-t"></div>
+      <h2 className="w-full text-4xl lg:text-5xl font-bold pt-32 text-center uppercase">Resultados</h2>
+      <div className="w-full mb-20">	
+        <div className="h-1 mx-auto bg-green-400 w-96 opacity-50 my-0 py-0 rounded-t"></div>
       </div>
-      <h3 className="w-full text-2xl lg:text-3xl p-10 text-center">Resultados Segunda MiniOlimpiada</h3>
+      <h3 className="w-full text-2xl lg:text-3xl p-10 text-center">Resultados Tercera MiniOlimpiada</h3>
+      <Table
+        teams = {terceraMiniOlimpiada}
+      ></Table>
 
+      <h3 className="w-full text-2xl lg:text-3xl p-10 text-center">Resultados Segunda MiniOlimpiada</h3>
       <Table
         teams = {segundaMiniOlimpiada}
       ></Table>
