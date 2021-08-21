@@ -118,8 +118,8 @@ const terceraMiniOlimpiada = [
   {
     'id': 2,
     'name1': 'ERIKA CAMELA CASILLA MAMANI',
-    'name2': 'PHANNEL YEBELI ALIAGA OJEDA',
-    'name3': 'YASHIRA EVELYN JARA PINTO',
+    'name2': 'XIMENA TICONA LLANOS',
+    'name3': 'JHOSELIN CAROL QUISPE QUISPE',
     'fase1': 40600,
     'fase2': 0,
     'fase3': 0,
@@ -138,8 +138,8 @@ const terceraMiniOlimpiada = [
   {
     'id': 4,
     'name1': 'GABRIELA EVELIN CARBAJAL ALLPACCA',
-    'name2': 'XIMENA TICONA LLANOS',
-    'name3': 'JHOSELIN CAROL QUISPE QUISPE',
+    'name2': 'PHANNEL YABELI ALIAGA OJEDA',
+    'name3': 'YASHIRA EVELYN JARA PINTO',
     'fase1': 28800,
     'fase2': 0,
     'fase3': 0,
