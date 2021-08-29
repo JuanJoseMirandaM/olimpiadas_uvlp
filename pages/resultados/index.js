@@ -53,7 +53,7 @@ const segundaMiniOlimpiada = [
     'total': 132000
   },
   {
-    'id': 6, 
+    'id': 6,
     'name1': 'JOSE ENRIQUE AGUILAR TINTAYA',
     'name2': 'ROSA MARIA HUANCA QUISPE',
     'name3': 'DAYANA MIRIAM HERRERA VARGAS',
@@ -107,33 +107,33 @@ const segundaMiniOlimpiada = [
 const terceraMiniOlimpiada = [
   {
     'id': 1,
-    'name1': 'ROSY MARIENCA CONDORI MAMANI ',
-    'name2': 'JOSE SANTIAGO ALANOCA SILVA',
-    'name3': 'LAURA MEYLIN TANTANI SULLCA ',
-    'fase1': 40800,
-    'fase2': 0,
-    'fase3': 0,
-    'total': 40800
-  },
-  {
-    'id': 2,
     'name1': 'ERIKA CAMELA CASILLA MAMANI',
     'name2': 'XIMENA TICONA LLANOS',
     'name3': 'JHOSELIN CAROL QUISPE QUISPE',
     'fase1': 40600,
-    'fase2': 0,
-    'fase3': 0,
-    'total': 40600
+    'fase2': 67200,
+    'fase3': 00,
+    'total': 107600
   },
-    {
+  {
+    'id': 2,
+    'name1': 'ROSY MARIENCA CONDORI MAMANI ',
+    'name2': 'JOSE SANTIAGO ALANOCA SILVA',
+    'name3': 'LAURA MEYLIN TANTANI SULLCA ',
+    'fase1': 40800,
+    'fase2': 40800,
+    'fase3': 0,
+    'total': 81600
+  },
+  {
     'id': 3,
     'name1': 'ALBA DANIELA RODRIGUEZ SILVA',
     'name2': 'MARIA ANGÉLICA CONDE OJOPI',
     'name3': 'OLIVER BERNABE QUISPE MAMANI',
     'fase1': 31200,
-    'fase2': 0,
-    'fase3': 0,
-    'total': 31200
+    'fase2': 33000,
+    'fase3': 00,
+    'total': 64200
   },
   {
     'id': 4,
@@ -141,9 +141,9 @@ const terceraMiniOlimpiada = [
     'name2': 'PHANNEL YABELI ALIAGA OJEDA',
     'name3': 'YASHIRA EVELYN JARA PINTO',
     'fase1': 28800,
-    'fase2': 0,
-    'fase3': 0,
-    'total': 28800
+    'fase2': 26400,
+    'fase3': 00,
+    'total': 55200
   }
 ];
 
@@ -151,17 +151,17 @@ const index = () => {
   return (
     <div className="w-full container mx-auto">
       <h2 className="w-full text-4xl lg:text-5xl font-bold pt-32 text-center uppercase">Resultados</h2>
-      <div className="w-full mb-20">	
+      <div className="w-full mb-20">
         <div className="h-1 mx-auto bg-green-400 w-96 opacity-50 my-0 py-0 rounded-t"></div>
       </div>
       <h3 className="w-full text-2xl lg:text-3xl p-10 text-center">Resultados Tercera MiniOlimpiada</h3>
       <Table
-        teams = {terceraMiniOlimpiada}
+        teams={terceraMiniOlimpiada}
       ></Table>
 
       <h3 className="w-full text-2xl lg:text-3xl p-10 text-center">Resultados Segunda MiniOlimpiada</h3>
       <Table
-        teams = {segundaMiniOlimpiada}
+        teams={segundaMiniOlimpiada}
       ></Table>
     </div>
   )
