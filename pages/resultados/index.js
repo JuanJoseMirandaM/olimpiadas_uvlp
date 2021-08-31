@@ -112,7 +112,7 @@ const terceraMiniOlimpiada = [
     'name3': 'JHOSELIN CAROL QUISPE QUISPE',
     'fase1': 40600,
     'fase2': 67200,
-    'fase3': 00,
+    'fase3': 0,
     'total': 107600
   },
   {
@@ -132,7 +132,7 @@ const terceraMiniOlimpiada = [
     'name3': 'OLIVER BERNABE QUISPE MAMANI',
     'fase1': 31200,
     'fase2': 33000,
-    'fase3': 00,
+    'fase3': 0,
     'total': 64200
   },
   {
@@ -142,7 +142,7 @@ const terceraMiniOlimpiada = [
     'name3': 'YASHIRA EVELYN JARA PINTO',
     'fase1': 28800,
     'fase2': 26400,
-    'fase3': 00,
+    'fase3': 0,
     'total': 55200
   }
 ];
