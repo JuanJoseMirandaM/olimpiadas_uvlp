@@ -110,40 +110,40 @@ const terceraMiniOlimpiada = [
     'name1': 'ERIKA CAMELA CASILLA MAMANI',
     'name2': 'XIMENA TICONA LLANOS',
     'name3': 'JHOSELIN CAROL QUISPE QUISPE',
-    'fase1': 40600,
-    'fase2': 67200,
-    'fase3': 0,
-    'total': 107600
+    'fase1':40600,
+    'fase2':67200,
+    'fase3':46800,
+    'total':154400
   },
   {
-    'id': 2,
+    'id':2,
     'name1': 'ROSY MARIENCA CONDORI MAMANI ',
     'name2': 'JOSE SANTIAGO ALANOCA SILVA',
     'name3': 'LAURA MEYLIN TANTANI SULLCA ',
-    'fase1': 40800,
-    'fase2': 40800,
-    'fase3': 0,
-    'total': 81600
+    'fase1':40800,
+    'fase2':40800,
+    'fase3':15600,
+    'total':97200
   },
-  {
-    'id': 3,
+    {
+    'id':3,
     'name1': 'ALBA DANIELA RODRIGUEZ SILVA',
     'name2': 'MARIA ANGÉLICA CONDE OJOPI',
     'name3': 'OLIVER BERNABE QUISPE MAMANI',
-    'fase1': 31200,
-    'fase2': 33000,
-    'fase3': 0,
-    'total': 64200
+    'fase1':31200,
+    'fase2':33000,
+    'fase3':23400,
+    'total':87600
   },
-  {
-    'id': 4,
+{
+    'id':4,
     'name1': 'GABRIELA EVELIN CARBAJAL ALLPACCA',
     'name2': 'PHANNEL YABELI ALIAGA OJEDA',
     'name3': 'YASHIRA EVELYN JARA PINTO',
-    'fase1': 28800,
-    'fase2': 26400,
-    'fase3': 0,
-    'total': 55200
+    'fase1':28800,
+    'fase2':26400,
+    'fase3':27200,
+    'total':82400
   }
 ];
 
